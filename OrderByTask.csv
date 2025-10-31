@@ -1,0 +1,10 @@
+select * from sales
+
+select * from sales order by order_date
+
+select * from sales order by product_id
+
+select product_id, qty from sales order by product_id, qty
+
+select product_id, qty from sales order by product_id asc, qty desc
+
